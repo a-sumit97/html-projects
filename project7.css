@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contentbox {
+  display: flex;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.bars {
+  margin-bottom: 20px;
+}
+.aside img {
+  height: 30px;
+  width: 30px;
+}
+.navigation {
+  width: 100%;
+  margin: 20px;
+}
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-image img {
+  height: 40px;
+  width: 180px;
+}
+
+.middle {
+  display: flex;
+  gap: 30px;
+}
+
+.navigation-search {
+  display: flex;
+}
+
+.input input {
+  height: 40px;
+  width: 500px;
+}
+
+.search img {
+  background-color: rgb(230, 226, 226);
+  height: 40px;
+}
+
+.mic img {
+  border-radius: 50%;
+  background-color: rgb(230, 226, 226);
+  height: 40px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.all-items {
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid black;
+  /* margin-bottom: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#dark {
+  background-color: rgb(41, 39, 39);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#light {
+  background-color: rgb(237, 233, 233);
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-item-image img {
+  height: 200px;
+  width: 320px;
+}
+.grid-desc {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+.left-side-desc {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+}
+
+.left-side-desc img {
+  height: 40px;
+  width: 40px;
+}
+.left-side-desc h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.left-side-desc p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.span {
+  display: flex;
+  gap: 20px;
+}
+
+.span span {
+  font-size: 15px;
+}

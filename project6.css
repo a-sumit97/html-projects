@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+div {
+  scroll-margin: 50px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.navigation {
+  width: 100%;
+  background-color: rgb(24, 3, 63);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+  position: fixed;
+  height: 100px;
+  position: fixed;
+}
+.left-navigation {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 50px;
+}
+.right-navigation {
+  display: flex;
+  gap: 2rem;
+}
+
+.right-navigation a {
+  text-decoration: none;
+}
+.right-navigation a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.right-navigation a h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.hero_section {
+  background-image: url(project6\ 1.png);
+  /* position: relative; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero_heading {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero_top {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero_desc {
+  font-size: 1.4rem;
+  margin-bottom: 1px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+}
+
+.music {
+  width: 100%;
+  height: 720px;
+  background-color: rgb(24, 3, 63);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  gap: 2rem;
+}
+
+.music-heading {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.music-heading i {
+  font-size: 2rem;
+  background: rgb(24, 3, 63);
+}
+.music-heading h1 {
+  font-size: 2rem;
+}
+.music-description {
+  font-size: 25px;
+  text-align: center;
+}
+
+.trail {
+  color: white;
+  background-color: rgb(204, 12, 12);
+  padding: 15px 20px;
+  border: none;
+  font-size: 19px;
+}
+.music-available {
+  font-size: 1.5rem;
+}
+
+.readmore {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.readmore h3 {
+  margin-top: 30rem;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.readmore p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.readmore-button {
+  font-size: 20px;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(35, 35, 222);
+  margin-top: 2rem;
+  border: none;
+}
+
+.readmore-image {
+  margin-top: 2rem;
+  height: 50rem;
+  width: 80rem;
+  margin-bottom: 2rem;
+}
+
+.entertainment {
+  background-image: url(project6\ 4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  gap: 2rem;
+  padding: 0px 150px;
+}
+
+.entertainment h1 {
+  font-size: 2.3rem;
+}
+
+.entertainment p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.gift-card {
+  max-width: 1300px;
+  text-align: center;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
+  height: 500px;
+}
+.left-card {
+  width: 50%;
+  height: 100%;
+}
+.left-card img {
+  height: 400px;
+  width: 600px;
+}
+.right-card {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.right-card h2 {
+  font-size: 2rem;
+  /* margin-bottom: 0.5rem; */
+  font-weight: bolder;
+}
+
+.right-card p {
+  font-size: 1.3rem;
+  text-align: left;
+}
+.card-para {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+.redeem {
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: blue;
+  margin-top: 1rem;
+  border: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(5, 5, 68);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  color: white;
+  padding: 20px 120px;
+}
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+#item-heading {
+  border-bottom: 1px solid white;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 1rem; */
+  padding-top: 10px;
+  padding-bottom: 1rem;
+  align-items: flex-start;
+  line-height: 32px;
+}
+.last {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(22, 67, 191);
+  padding: 10px 30px;
+}
+
+@media (max-width: 1000px) {
+  .navigation {
+    width: 100%;
+
+    height: 100px;
+  }
+  .left-navigation {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+  }
+  .right-navigation {
+    display: flex;
+    gap: 1rem;
+    /* padding: 10px 20px; */
+  }
+
+  .hero_section {
+    background-image: url(project6\ 1.png);
+
+    width: 100%;
+    height: 1000px;
+
+    gap: 10px;
+  }
+  .hero_heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .hero_top {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero_desc {
+    font-size: 1rem;
+    margin-bottom: 1px;
+    padding: 10px 20px;
+  }
+  .music {
+    width: 100%;
+    height: 500px;
+  }
+
+  .music-heading {
+    padding-top: 1rem;
+    gap: 5px;
+  }
+
+  .music-heading img {
+    height: 20px;
+    width: 20px;
+    background: rgb(24, 3, 63);
+  }
+  .music-heading h1 {
+    font-size: 1rem;
+  }
+  .music-description {
+    font-size: 15px;
+    text-align: center;
+  }
+  .trail {
+    font-size: 10px;
+  }
+  .music-available {
+    font-size: 1rem;
+  }
+
+  .mac_ipad-image img {
+    height: 200px;
+    width: 200px;
+  }
+  .readmore {
+    max-width: 800px;
+    text-align: center;
+  }
+  .readmore h3 {
+    margin-top: 20rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .readmore p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .readmore-button {
+    font-size: 10px;
+  }
+
+  .entertainment {
+    width: 100%;
+    height: 400px;
+    gap: 1rem;
+    padding: 0px 150px;
+  }
+
+  .entertainment h1 {
+    font-size: 1.5rem;
+  }
+
+  .entertainment p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .gift-card {
+    width: 50%;
+
+    height: 300px;
+  }
+  .left-card {
+    width: 50%;
+    height: 100%;
+  }
+  .left-card img {
+    height: 400px;
+    width: 600px;
+  }
+  .right-card {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .right-card h2 {
+    font-size: 2rem;
+    /* margin-bottom: 0.5rem; */
+    font-weight: bolder;
+  }
+
+  .right-card p {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .card-para {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+  }
+  .redeem {
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: blue;
+    margin-top: 1rem;
+    border: none;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(5, 5, 68);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    color: white;
+    padding: 20px 120px;
+  }
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  #item-heading {
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1rem; */
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    align-items: flex-start;
+    line-height: 32px;
+  }
+  .last {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(22, 67, 191);
+    padding: 10px 30px;
+  }
+}
